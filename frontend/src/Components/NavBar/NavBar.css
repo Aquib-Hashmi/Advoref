@@ -1,0 +1,21 @@
+.MuiAppBar-root {
+    background-color: none;
+  }
+  
+  .MuiButton-root {
+    margin-right: 20px;
+  }
+  
+  .MuiAvatar-root {
+    margin-left: auto;
+  }
+  
+  .iconButton {
+    margin-left: 2px; /* Adjust the value as needed to reduce the space */
+    margin-right: 4px; /* Adjust the value as needed to reduce the space */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,289 @@
+/* .App {
+  text-align: center;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  #home {
+    background-color: #f0f0f0;
+  }
+  
+  #how-it-works {
+    background-color: #ffffff;
+  }
+  
+  #subscription {
+    background-color: #ffffff;
+    margin-top: -200px;
+  }
+  
+  #home {
+    background-color: none;
+  }
+  
+  #home {
+    background-image: url('../../assets/homebgimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set to 100vh to make the section cover the viewport height */
+    color: rgb(0, 0, 0); /* Change text color to make it readable on the background image */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  
+  .titlebox{
+    /* margin-top: 170px; */
+    margin-top: 100px;
+    margin-left: 57px;
+    width: 490px;
+    height: 294px;
+  }
+  
+  #title {
+    font-size: 94px;
+    font-weight: 700;
+    color: #111439;
+    margin-bottom: 5px;
+  }
+  
+  #knowmore {
+    background-color: #231A36;
+    color: white;
+    border-radius: 26px;
+    width: 202px;
+    height: 52px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -20px; */
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  .icon-column {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .icon-column img {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .icon-column p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  #how-it-works-title {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  #how-it-works-text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 565px;
+  }
+  
+  #how-it-works-title2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  #how-it-works-text2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+  
+  /* #dashboard2 {
+    width: 611px;
+    height: 463px;
+    margin-left: 30px;
+  } */
+  
+  .works {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .left img {
+    max-width: 100%; /* Ensures the image fits within the column */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: auto; /* Centers the image vertically */
+    margin-left: 20px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column !important; /* Stacks child elements vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #Effortless {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a box shadow */
+    padding: 20px; /* Adds padding for visual appeal */
+    padding-bottom: 5px;
+    background-color: white; /* Ensures background is white */
+    border-radius: 8px; /* Adds rounded corners */
+    width: 508px;
+    height: 124px;
+    text-align: left;
+  }
+  
+  #Effortless-title {
+    font-size: 18px; 
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  
+  #Effortless-text {
+    font-size: 16px; 
+    font-weight: 400;
+    margin-left: 20px;
+  }
+  
+  #Accordion {
+    width: 548px;
+    height: 202px;
+    margin-top: 36px;
+  
+  }
+  
+  #panel1-header {
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  .section {
+    text-align: center;
+  }
+  
+  .subscription-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .subscription-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    text-align: center; 
+  }
+  
+  .subscription-price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .subscription-content {
+    margin: 10px 0;
+  }
+  
+  .subscription-select {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align select */
+  }
+  
+  #select {
+    cursor: pointer;
+  }
+  
+  .subscription-select input {
+    margin-right: 5px;
+  }
+  
+  .subscription-features {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center align list items */
+  }
+  
+  .subscription-features li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align feature items */
+    margin: 5px 0;
+  }
+  
+  .feature-check {
+    color: green;
+    margin-right: 5px; /* Add some space between the check and text */
+  }
+  
+  .feature-x {
+    color: red;
+    margin-right: 5px; /* Add some space between the cross and text */
+  }
+  
+  .popular {
+    border-color: purple;
+    position: relative;
+  }
+  
+  .subscription-badge {
+    background-color: yellow;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .discover-benefits {
+    margin-top: 20px;
+  }
+  
+  .discover-benefits a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  #homeimg1 {
+    width: 420px;
+    margin-top: 120px;
+  }
+  
+  #homeimg2 {
+    width: 260px;
+    margin-top: 195px;
+    margin-left: 20px;
+  }
+  
+  #homeimg3 {
+    width: 829px;
+    height: 403px;
+    margin-top: 195px;
+    margin-left: 20px;
+  }
